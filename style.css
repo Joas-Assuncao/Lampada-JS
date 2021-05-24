@@ -23,9 +23,9 @@ div:last-of-type {
 }
 
 button {
-    height: 2.5rem;
-    width: 6.25rem;
+    padding: 1rem 2rem;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 #on {
@@ -35,6 +35,11 @@ button {
     border: 1px solid black;
 
     outline: none;
+    transition: .3s;
+}
+
+#on:hover {
+    background: #2929ff;
 }
 
 #off {
@@ -42,5 +47,11 @@ button {
     background: red;
     border-radius: 1rem;
     border: 1px solid black;
+
     outline: none;
+    transition: .3s;
+}
+
+#off:hover {
+    background: #ff3737;
 }

@@ -32,4 +32,4 @@ image.addEventListener('mouseout', () => {
 
 image.addEventListener('click', () => {
     image.src = lampBroken;
-}); alert(450 / 16)
+});
